@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/secundario"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/btn_regresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Regresar a la pantalla principal" />
+
+        <TextView
+            android:id="@+id/nombrePersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Ángel Castellanos" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/parteAbajo"
+        tools:listitem="@layout/mensaje_layout"
+        android:layout_below="@+id/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/parteAbajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="1dp"
+        android:background="#F1F1F1"
+        >
+
+        <EditText
+            android:id="@+id/inputMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="85"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:hint="Escribe un mensaje..."
+            android:inputType="text"
+            android:background="@drawable/input_chat" />
+
+        <ImageView
+            android:id="@+id/btn_enviarMensaje"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="15"
+            android:src="@drawable/baseline_arrow_circle_right_24"
+            android:contentDescription="Botón enviar mensaje" />
+    </LinearLayout>
+</RelativeLayout>

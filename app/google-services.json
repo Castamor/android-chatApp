@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401877586796",
+    "project_id": "chat-3155d",
+    "storage_bucket": "chat-3155d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401877586796:android:0d8fa79c7bde2ef82e9949",
+        "android_client_info": {
+          "package_name": "com.castamor.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEvmdnSZs6ryON1JhaoV6bXT4cQPuOhKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
