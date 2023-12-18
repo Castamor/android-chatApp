@@ -30,9 +30,9 @@ Además, en dónde están enlistados los contactos también aparece el nombre de
 ![Actualizar nombre - actividad](https://github.com/Castamor/android-chatApp/assets/141193208/43a78729-46eb-4943-9199-40159ed6052a)
 
 ### Chat privados
-La pantalla de los chats es bastante similar a una aplicación como WhatsApp y el funcionamiento del mimso es básicamente que al momento de enviar un mensaje se activa un evento en la base de datos que de inmediato actualiza la información, permitiendo así la conversación en tiempo real.
+La pantalla de los chats es bastante similar a una aplicación como WhatsApp y el funcionamiento del mismo es básicamente que al momento de enviar un mensaje se activa un evento en la base de datos que de inmediato actualiza la información, permitiendo así la conversación en tiempo real.
 
 ![Chat Angel](https://github.com/Castamor/android-chatApp/assets/141193208/bb868e20-eca5-4b54-b2d1-bbda375c4f03)
 ![Chat Silvia](https://github.com/Castamor/android-chatApp/assets/141193208/fefc99b7-9765-4000-9f1b-f518eed4ded2)
 
-###### README.md - Version 1 (creación del mismo)
+###### README.md - Version 1 (corrección de palabras)
